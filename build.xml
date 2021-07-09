@@ -2,6 +2,7 @@
 <project name="otjbench" default="compile" basedir=".">
   <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter" />
   <property name="ecotj.jar" value="libs/ant/ecotj-R-2.5.3-201703071315.jar" />
+  <property name="otre_min.jar" value="libs/runtime/otre_min.jar" />
 
   <property name="src.dir" value="src/main/otj" />
   <property name="build.dir" value="build" />
